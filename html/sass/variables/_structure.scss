@@ -1,0 +1,67 @@
+@font-face {
+    font-family: 'Futura Std';
+    src: url('assets/fonts/FuturaStd-Bold.eot');
+    src: url('assets/fonts/FuturaStd-Bold.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/FuturaStd-Bold.woff2') format('woff2'),
+        url('assets/fonts/FuturaStd-Bold.woff') format('woff'),
+        url('assets/fonts/FuturaStd-Bold.svg#FuturaStd-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura Std Light';
+    src: url('assets/fonts/FuturaStd-Light.eot');
+    src: url('assets/fonts/FuturaStd-Light.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/FuturaStd-Light.woff2') format('woff2'),
+        url('assets/fonts/FuturaStd-Light.woff') format('woff'),
+        url('assets/fonts/FuturaStd-Light.svg#FuturaStd-Light') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Futura-Normal';
+    src: url('assets/fonts/Futura-Normal.eot');
+    src: url('assets/fonts/Futura-Normal.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/Futura-Normal.woff2') format('woff2'),
+        url('assets/fonts/Futura-Normal.woff') format('woff'),
+        url('assets/fonts/Futura-Normal.svg#Futura-Normal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Proximanova';
+    src: url('assets/fonts/proximanova-regular.eot');
+    src: url('assets/fonts/proximanova-regular.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/proximanova-regular.woff2') format('woff2'),
+        url('assets/fonts/proximanova-regular.woff') format('woff'),
+        url('assets/fonts/proximanova-regular.svg#proximanova-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+	color: $main_gray;
+	font-size: 18px;
+	font-family: $main_light;
+}
+
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.col-12{
+	width: 100%;
+	float: left;
+}
+.col-6{
+	width: 50%;
+	float: left;
+}
+.container{
+	max-width: 800px;
+	margin: 0 auto;
+}

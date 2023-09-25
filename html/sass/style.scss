@@ -1,0 +1,15 @@
+/*!
+Theme Name: DRW
+*/
+/* Variables */
+@import "variables/colors";
+@import "variables/typography";
+@import "variables/structure";
+
+/* Layout */
+@import "layout/header";
+@import "layout/footer";
+@import "layout/container";
+
+/* Pages */
+@import "pages/home";
